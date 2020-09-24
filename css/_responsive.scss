@@ -1,0 +1,58 @@
+// Breakpoints
+$breakpoint-767: 767px;
+$breakpoint-768: 768px;
+$breakpoint-1024: 1024px;
+
+@media (max-width: $breakpoint-767){
+    .sticky-block-wrapper{
+        
+        .sticky-block-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+
+        .column-left, .column-right{
+            float: none;
+            width: 100%;
+        }
+    
+    }
+}
+
+@media (min-width: $breakpoint-768){
+    .sticky-block-wrapper{
+        
+        .sticky-block-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+
+        .column-left, .column-right{
+            float: none;
+            width: 100%;
+        }
+    
+    }
+}
+
+@media (min-width: $breakpoint-1024){
+    .sticky-block-wrapper{
+        
+        .sticky-block-row{
+            display: block;
+        }
+
+        .column-left{
+            float: left;
+            width: 50%;
+        }
+
+        .column-right{
+            float: right;
+            width: 50%;
+        }
+    
+    }
+}

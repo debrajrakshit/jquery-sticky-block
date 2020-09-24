@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 1.2em;
+}
+
+a{
+    font-size: 1.6rem;
+}
+
+.clearfix{
+    clear: both;
+}
