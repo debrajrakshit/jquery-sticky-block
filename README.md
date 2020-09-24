@@ -1,12 +1,15 @@
 # jquery-sticky-block
 
-Usage:
+#Usage:
+```
 $('.your-selector-name').stickyBlock();
+```
 
-Example:
+# Example:
 To add a sticky block to a scrolling content you need to construct the layout as follows*:
 *(the div with class "sticky" will be the sticky block)
 
+```
 <!-- Sticky block starts here -->
     <div id="sticky-block-1" class="sticky-block-wrapper">
         <div class="sticky-block-row">
@@ -89,5 +92,6 @@ To add a sticky block to a scrolling content you need to construct the layout as
     </div>
     <div class="clearfix"></div>
     <!-- Sticky block ends here -->
+```
 
-    You may keep adding more sticky containers like this with your regular contents.
+You may keep adding more sticky containers like this with your regular contents.
